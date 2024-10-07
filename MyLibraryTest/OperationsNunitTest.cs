@@ -28,7 +28,7 @@ namespace MyLibrary
             // 3 assert
 
             Assert.That(result, Is.EqualTo(expectedResult));
-            Assert.That(result,Is.Not.EqualTo(expectedResult));
+            //Assert.That(result,Is.Not.EqualTo(expectedResult));
         }
 
         [Test]
@@ -40,7 +40,7 @@ namespace MyLibrary
             // 1 arrange
             Operations operations=new Operations();
 
-            //int number = 10;
+            //int number = 15;
 
             var result = operations.IsEven(number);
             Assert.That(result, Is.True);
